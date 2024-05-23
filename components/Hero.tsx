@@ -6,7 +6,7 @@ import { TypewriterEffectSmooth } from "./ui/typewrite-effect";
 import { Button } from "./ui/moving-border";
 import { ReactTyped } from "react-typed";
 import { SparklesCore } from "./ui/sparkles";
-import { SparklesView } from "./SparklesView";
+import SparklesView from "./SparklesView";
 const Hero = () => {
   const words = [
     {
