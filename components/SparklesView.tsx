@@ -2,7 +2,9 @@
 import React from "react";
 import { SparklesCore } from "./ui/sparkles";
 
-export function SparklesView({ children }) {
+const SparklesView: React.FC<{ children?: React.ReactNode }> = ({
+  children,
+}) => {
   return (
     <div className="w-auto relative bg-transparent flex flex-col items-center justify-center mt-4">
       {/* <h1 className="md:text-1xl text-1xl lg:text-3xl font-bold text-center text-white relative z-20">
@@ -27,4 +29,6 @@ export function SparklesView({ children }) {
       </div>
     </div>
   );
-}
+};
+
+export default SparklesView;
